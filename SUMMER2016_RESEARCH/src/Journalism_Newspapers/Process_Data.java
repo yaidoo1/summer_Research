@@ -48,7 +48,7 @@ public class Process_Data {
     }
 
     //read data from list and store them as newpaper objects 
-    public static List<Newspaper> list_to_Obj(List<List<String>> nps) {
+    public static List<Newspaper> list_np_Obj(List<List<String>> nps) {
         Zip_Population[] pops = get_zip_Census();
         List<Newspaper> newsPapers = new ArrayList<Newspaper>();
 
